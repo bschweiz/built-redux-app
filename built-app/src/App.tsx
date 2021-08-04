@@ -15,6 +15,10 @@ function App() {
   ];
 
   return (
+     <> 
+        <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo" height="40px" />
+        </header>
     <div className="ag-theme-alpine" style={{ height: 400, width: 600 }}>
       <AgGridReact
         rowData={rowData}>
@@ -23,6 +27,7 @@ function App() {
         <AgGridColumn field="price"></AgGridColumn>
       </AgGridReact>
     </div>
+    </>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
